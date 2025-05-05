@@ -7,7 +7,7 @@ import CustomButton from './common/CustomButton'
 const SwitchingEnergy = () => {
     return (
         <>
-            <div className="flex justify-center items-center py-[162px]">
+            <div className="flex justify-center items-center py-10 sm:py-20 md:py-30 lg:py-[162px]">
                 <div className="max-w-[1140px] px-3">
                     <div className="flex max-lg:flex-col gap-9 lg:gap-[70px] items-center">
                         <img className='w-full max-w-[507px] lg:max-w-[450px] xl:max-w-[507px]' src={SwitchingEnergyImg} alt="switching-energy" />
