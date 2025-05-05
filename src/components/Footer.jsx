@@ -2,10 +2,12 @@ import React from 'react'
 import CustomDescription from './common/CustomDescription'
 import FooterLogo from '../assets/images/svg/footer-logo.svg'
 import { Facebook, Insta, Linkdin, Twitter } from '../utils/icon'
+import Newsletter from './Newsletter'
 const Footer = () => {
     return (
-        <div className="bg-[url(./assets/images/png/footer-bg-img.png)] bg-no-repeat bg-cover pt-[232px]">
-            <div className="max-w-[1140px] px-3 mx-auto">
+        <div className="bg-[url(./assets/images/png/footer-bg-img.png)] bg-no-repeat bg-cover mt-[162px] ">
+            <Newsletter />
+            <div className="max-w-[1140px] px-3 mx-auto -mt-20">
                 <div className="md:flex justify-between">
                     <div>
                         <img className='mb-7' src={FooterLogo} alt="logo" />
