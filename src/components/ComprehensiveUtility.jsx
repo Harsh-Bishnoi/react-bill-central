@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
-import { CloseArrow, Electricity, OpenArrow } from '../utils/icon';
+import { CloseArrow, OpenArrow } from '../utils/icon';
 import { COMPREHENSIVE_DATA } from '../utils/helper';
 import TwoMan from '../assets/images/png/two-man-img.png'
 const ComprehensiveUtility = () => {
