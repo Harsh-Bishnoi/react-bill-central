@@ -129,17 +129,17 @@ export const COMPREHENSIVE_DATA = [
         description: "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider."
     },
     {
-        icon:Fuel,
+        icon: Fuel,
         text: "Gas Plan Comparisons",
         description: "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider."
     },
     {
-        icon:Internet,
+        icon: Internet,
         text: "Internet Plan Comparisons",
         description: "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider."
     },
     {
-        icon:Bundle,
+        icon: Bundle,
         text: "Bundle Packages",
         description: "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider."
     },
