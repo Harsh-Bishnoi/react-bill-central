@@ -1,5 +1,6 @@
 import './App.css'
 import ChooseUtilities from './components/ChooseUtilities'
+import ComprehensiveUtility from './components/ComprehensiveUtility'
 import Footer from './components/Footer'
 import FrequentlyQuestions from './components/FrequentlyQuestions'
 import StepsToSwitch from './components/StepsToSwitch'
@@ -12,6 +13,7 @@ function App() {
     <>
       <SwitchingEnergy />
       <StepsToSwitch />
+      <ComprehensiveUtility />
       <ChooseUtilities />
       <Testimonials />
       <FrequentlyQuestions />
