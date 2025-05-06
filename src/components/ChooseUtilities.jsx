@@ -6,7 +6,7 @@ import { Compared, NoService, SaveTime, Support, Thumb, UtilitiesArrow } from '.
 const ChooseUtilities = () => {
     return (
         <>
-            <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-[162px]">
+            <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
                 <div className="max-w-[1140px] px-3">
                     <CustomHeading headingClass="text-center pb-4" headingtext="Why Choose Us for " headingSpan2="Utilities" />
                     <CustomDescription descriptionClass="text-center max-w-[620px] mx-auto pb-14.5" descriptionText="This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!" />

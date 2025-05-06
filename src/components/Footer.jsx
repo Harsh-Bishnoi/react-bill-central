@@ -5,7 +5,7 @@ import { Facebook, Insta, Linkdin, Twitter } from '../utils/icon'
 import Newsletter from './Newsletter'
 const Footer = () => {
     return (
-        <div className="bg-[url(./assets/images/png/footer-bg-img.png)] bg-no-repeat bg-cover mt-[162px] ">
+        <div className="bg-[url(./assets/images/png/footer-bg-img.png)] bg-no-repeat bg-cover mt-40.5 ">
             <Newsletter />
             <div className="max-w-[1140px] px-3 mx-auto -mt-20">
                 <div className="md:flex justify-between">

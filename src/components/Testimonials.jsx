@@ -11,7 +11,7 @@ import { Navigation } from 'swiper/modules';
 const Testimonials = () => {
     return (
         <>
-            <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-[162px]">
+            <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
                 <div className="max-w-[1284px] px-3">
                     <CustomHeading headingClass="pb-4 text-center" headingtext="Our" headingSpan2="Testimonials" />
                     <CustomDescription descriptionClass="max-w-[490px] mx-auto text-center pb-15.5" descriptionText="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />

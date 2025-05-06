@@ -7,6 +7,7 @@ import star from '../assets/images/png/testimonials-star-img.png'
 import testimonialsImg_1 from '../assets/images/png/testimonials-img-1.png'
 import testimonialsImg_2 from '../assets/images/png/testimonials-img-2.png'
 import testimonialsImg_3 from '../assets/images/png/testimonials-img-3.png'
+
 export const Swiper_DATA = [
     {
         img: img_1,
@@ -98,5 +99,24 @@ export const SWIPER_DATA_2 = [
         id: "@jayshah",
         star: star,
         para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
+]
+
+export const ACCORDION_DATA = [
+    {
+        text: "Can I switch providers if I’m currently in a contract?",
+        description:"Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you."
+    },
+    {
+        text: "Will my service be interrupted if I switch providers?",
+        description:"Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you."
+    },
+    {
+        text: "How long does it take to switch providers?",
+        description:"Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you."
+    },
+    {
+        text: "Is there a fee for switching providers?",
+        description:"Yes, but some contracts may include exit fees. We can guide you through the terms of your current plan and help you determine if switching now makes sense for you."
     },
 ]
