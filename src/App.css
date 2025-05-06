@@ -4,3 +4,11 @@
 .font-family-primary {
     font-family: 'Helvetica Neue', sans-serif;
 }
+
+.swiper-arrow:hover svg path {
+    fill: white;
+}
+
+.swiper-arrow svg path {
+    transition: all 200ms ease-in-out;
+}

@@ -3,7 +3,10 @@ import img_2 from '../assets/images/png/swiper-img-2.png'
 import img_3 from '../assets/images/png/swiper-img-3.png'
 import img_4 from '../assets/images/png/swiper-img-4.png'
 // import { Compared, NoService, SaveTime, Support, Thumb, UtilitiesArrow } from './icon'
-
+import star from '../assets/images/png/testimonials-star-img.png'
+import testimonialsImg_1 from '../assets/images/png/testimonials-img-1.png'
+import testimonialsImg_2 from '../assets/images/png/testimonials-img-2.png'
+import testimonialsImg_3 from '../assets/images/png/testimonials-img-3.png'
 export const Swiper_DATA = [
     {
         img: img_1,
@@ -59,3 +62,41 @@ export const Swiper_DATA = [
 //         description_5: "Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.",
 //     },
 // ]
+
+export const SWIPER_DATA_2 = [
+    {
+        img: testimonialsImg_1,
+        name: "Cameron",
+        id: "@cameron",
+        star: star,
+        para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
+    {
+        img: testimonialsImg_2,
+        name: "Ronald",
+        id: "@ronald",
+        star: star,
+        para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
+    {
+        img: testimonialsImg_3,
+        name: "Jay Shah",
+        id: "@jayshah",
+        star: star,
+        para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
+    {
+        img: testimonialsImg_2,
+        name: "Ronald",
+        id: "@ronald",
+        star: star,
+        para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
+    {
+        img: testimonialsImg_3,
+        name: "Jay Shah",
+        id: "@jayshah",
+        star: star,
+        para: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum."
+    },
+]

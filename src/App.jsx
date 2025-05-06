@@ -3,6 +3,7 @@ import ChooseUtilities from './components/ChooseUtilities'
 import Footer from './components/Footer'
 import StepsToSwitch from './components/StepsToSwitch'
 import SwitchingEnergy from './components/SwitchingEnergy'
+import Testimonials from './components/Testimonials'
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
     <>
       <SwitchingEnergy />
       <StepsToSwitch />
-      <ChooseUtilities/>
-      <Footer/>
+      <ChooseUtilities />
+      <Testimonials/>
+      <Footer />
     </>
   )
 }
