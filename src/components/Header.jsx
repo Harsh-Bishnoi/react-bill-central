@@ -19,7 +19,7 @@ const Header = () => {
         <nav className='px-4'>
             <div className="max-w-[1140px] mx-auto">
                 <div className="flex justify-between items-center py-4">
-                        <a href="#"><img src={NavIcon} alt="nav-logo"/></a>
+                    <a className='z-6' href="#"><img src={NavIcon} alt="nav-logo" /></a>
                     <div onClick={toggleNavbar} className="z-50 lg:hidden flex flex-col justify-between w-6 h-5 cursor-pointer">
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'rotate-45 translate-y-2'}`}></span>
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
