@@ -21,10 +21,10 @@ const FrequentlyQuestions = () => {
                         }`} >
                         <button
                             onClick={() => toggleAccordion(index)}
-                            className="font-family-primary font-normal text-xl sm:text-2xl leading-[110%] w-full cursor-pointer flex justify-between items-center text-start"
+                            className="font-family-primary font-normal text-lg sm:text-2xl leading-[110%] w-full cursor-pointer flex justify-between items-center text-start"
                         >
                             <span>{item.text}</span>
-                            <span className="ml-3 w-7 h-7 border-[2px] rounded-full flex justify-center items-center">{openIndex === index ? <OpenSvg /> : <CloseSvg />}</span>
+                            <span className="ml-3 w-7 h-7 sm:border-[2px] rounded-full flex justify-center items-center">{openIndex === index ? <OpenSvg /> : <CloseSvg />}</span>
                         </button>
 
                         {openIndex === index && (
