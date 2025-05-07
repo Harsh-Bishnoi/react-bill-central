@@ -7,7 +7,7 @@ import WomanImg from '../assets/images/png/hero-woman-img.png'
 const Hero = () => {
     return (
         <>
-            <div className="bg-[url(./assets/images/png/hero-bg-img.png)] bg-no-repeat bg-center bg-cover min-h-[810px] rounded-bl-[200px] mb-[64px]">
+            <div className="bg-[url(./assets/images/png/hero-bg-img.png)] bg-no-repeat bg-center bg-cover min-h-[810px] rounded-bl-[200px] mb-[20px] md:mb-[64px]">
                 <div className="max-w-[1140px] mx-auto">
                     <Header />
                 </div>
