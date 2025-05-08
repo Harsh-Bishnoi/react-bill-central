@@ -14,10 +14,10 @@ const Footer = () => {
                         <CustomDescription descriptionClass="md:max-w-[297px] pb-[36px] text-white" descriptionText="Ut auctor nisi mauris eu tincidunt facilisi. Diam amet sollicitudin pretium maecenas ornare lacus arcu adipiscing." />
                         <h5 className='font-family-primary font-bold text-xl leading-[100%] capitalize pb-4 text-white'>Follow Us</h5>
                         <div className="flex gap-4 pb-10">
-                            <a className='w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] rounded-full flex items-center justify-center hover:scale-105 transition-all duration-200 ease-linear' href="https://in.linkedin.com/" target='_blank'><Linkdin /></a>
-                            <a className='w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] rounded-full flex items-center justify-center hover:scale-105 transition-all duration-200 ease-linear' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'> <Insta /></a>
-                            <a className='w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] rounded-full flex items-center justify-center hover:scale-105 transition-all duration-200 ease-linear' href="https://www.facebook.com/?_rdr" target='_blank'><Facebook /></a>
-                            <a className='w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] rounded-full flex items-center justify-center hover:scale-105 transition-all duration-200 ease-linear' href="https://x.com/" target='_blank'><Twitter /></a>
+                            <a className='link w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] hover:bg-[#FCFCFC] rounded-full flex items-center justify-center transition-all duration-200 ease-linear' href="https://in.linkedin.com/" target='_blank'><Linkdin /></a>
+                            <a className='link w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] hover:bg-[#FCFCFC] rounded-full flex items-center justify-center transition-all duration-200 ease-linear' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'> <Insta /></a>
+                            <a className='link w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] hover:bg-[#FCFCFC] rounded-full flex items-center justify-center transition-all duration-200 ease-linear' href="https://www.facebook.com/?_rdr" target='_blank'><Facebook /></a>
+                            <a className='link w-[33.5px] h-[33.5px] border-[0.84px] border-[#FCFCFC] hover:bg-[#FCFCFC] rounded-full flex items-center justify-center transition-all duration-200 ease-linear' href="https://x.com/" target='_blank'><Twitter /></a>
                         </div>
                     </div>
                     <div className='flex gap-[78px] flex-wrap'>
