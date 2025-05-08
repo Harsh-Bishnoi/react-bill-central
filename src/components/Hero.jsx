@@ -17,7 +17,8 @@ const Hero = () => {
                 <div className="max-w-[1140px] mx-auto">
                     <Header />
                 </div>
-                <div data-aos="zoom-in" data-aos-once="true" className="max-w-[1140px] px-3 w-full mx-auto">
+                <div data-aos="zoom-in" data-aos-easing="linear"
+                    data-aos-duration="500" data-aos-once="true" className="max-w-[1140px] px-3 w-full mx-auto">
                     <div className="flex max-lg:flex-wrap max-lg:pt-15 lg:translate-y-32 gap-3">
                         <div className="lg:max-w-[546px] lg:min-h-[662px] flex flex-col justify-between">
                             <div className="">

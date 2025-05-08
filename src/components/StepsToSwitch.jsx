@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -6,6 +8,9 @@ import 'swiper/css';
 import { Swiper_DATA } from '../utils/helper';
 
 const StepsToSwitch = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <>
             <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
@@ -35,7 +40,9 @@ const StepsToSwitch = () => {
                         }}>
                         {Swiper_DATA.map((item, index) => (
                             <SwiperSlide>
-                                <div key={index} className="max-w-[360px] w-full mx-auto relative group transition-all duration-200 ease-linear overflow-hidden">
+                                <div data-aos="fade-down"
+                                    data-aos-easing="linear"
+                                    data-aos-duration="800" data-aos-once="true" key={index} className="max-w-[360px] w-full mx-auto relative group transition-all duration-200 ease-linear overflow-hidden">
                                     <div className="flex gap-2 rotate-[270.3deg] absolute left-1/2 -translate-x-1/2 z-1 bottom-[250px] xl:bottom-[300px] group-hover:translate-y-[-900px] transition-all duration-200 ease-linear">
                                         <p className='font-family-primary whitespace-nowrap text-[#00171F] text-2xl xl:text-[32px] font-normal leading-[110%]'>{item.number}</p>
                                         <p className='font-family-primary whitespace-nowrap text-[#00171F] text-2xl xl:text-[32px] font-normal leading-[110%]'>{item.text}</p>
