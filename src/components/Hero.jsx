@@ -4,6 +4,7 @@ import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
 import CustomInput from './common/CustomInput'
 import WomanImg from '../assets/images/png/hero-woman-img.png'
+import DotImg from '../assets/images/png/hero-dot-img.png'
 const Hero = () => {
     return (
         <>
@@ -27,7 +28,10 @@ const Hero = () => {
                             </div>
                             <p className='pt-5 font-family-primary font-normal text-[34px] sm:text-[38px] leading-[110%] capitalize text-white lg:text-[#003459]'>More than <span className='font-bold text-[#00A8E8]'>80,000+</span> companies trust bill central </p>
                         </div>
-                        <img className='max-lg:mt-5 max-w-[558px] w-full mx-auto pointer-events-none' src={WomanImg} alt="woman-img" />
+                        <div className="relative">
+                            <img className='absolute -right-16 -top-14 -z-1 max-xl:hidden' src={DotImg} alt="" />
+                            <img className='max-lg:mt-5 max-w-[558px] w-full mx-auto pointer-events-none' src={WomanImg} alt="woman-img" />
+                        </div>
                     </div>
                 </div>
             </div>
