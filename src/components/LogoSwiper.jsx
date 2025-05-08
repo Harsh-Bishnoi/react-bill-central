@@ -39,13 +39,13 @@ const LogoSwiper = () => {
                         },
                     }}
                 >
-                    <SwiperSlide><img src={Logo_1} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={Logo_2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={Logo_3} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={Logo_4} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={Logo_5} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={Logo_6} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={Logo_7} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_1} alt="logo" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_2} alt="logo" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_3} alt="logo" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_4} alt="logo" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_5} alt="logo" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_6} alt="logo" /></SwiperSlide>
+                    <SwiperSlide><img src={Logo_7} alt="logo" /></SwiperSlide>
                 </Swiper>
             </div>
         </>
