@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from './Header'
 import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
@@ -6,13 +8,16 @@ import CustomInput from './common/CustomInput'
 import WomanImg from '../assets/images/png/hero-woman-img.png'
 import DotImg from '../assets/images/png/hero-dot-img.png'
 const Hero = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <>
             <div className="bg-[url(./assets/images/png/hero-bg-img.png)] bg-no-repeat bg-center bg-cover min-h-[810px] rounded-bl-[200px] mb-[20px] md:mb-[64px]">
                 <div className="max-w-[1140px] mx-auto">
                     <Header />
                 </div>
-                <div className="max-w-[1140px] px-3 w-full mx-auto">
+                <div data-aos="zoom-in" data-aos-once="true" className="max-w-[1140px] px-3 w-full mx-auto">
                     <div className="flex max-lg:flex-wrap max-lg:pt-15 lg:translate-y-32 gap-3">
                         <div className="lg:max-w-[546px] lg:min-h-[662px] flex flex-col justify-between">
                             <div className="">
