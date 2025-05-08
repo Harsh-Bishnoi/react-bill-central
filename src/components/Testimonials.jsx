@@ -60,7 +60,7 @@ const Testimonials = () => {
                                 ))}
                             </Swiper>
                         </div>
-                        <div className="flex items-center max-xl:gap-5 justify-between max-xl:justify-center">
+                        <div className="flex items-center max-xl:gap-5 justify-between max-xl:px-5">
                             <div className="prev-btn xl:absolute xl:left-0 z-10 top-1/2 max-xl:mt-5 xl:transform xl:-translate-y-1/2 w-10 h-10 rounded-full border border-[#00171F] flex items-center justify-center hover:bg-[#00171F] swiper-arrow transition-all duration-200 ease-linear cursor-pointer">
                                 <SwiperPrevArrow />
                             </div>
