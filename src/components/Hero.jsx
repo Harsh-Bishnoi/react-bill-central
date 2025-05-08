@@ -27,7 +27,7 @@ const Hero = () => {
                             </div>
                             <p className='pt-5 font-family-primary font-normal text-[34px] sm:text-[38px] leading-[110%] capitalize text-white lg:text-[#003459]'>More than <span className='font-bold text-[#00A8E8]'>80,000+</span> companies trust bill central </p>
                         </div>
-                        <img className='max-lg:mt-5 max-w-[558px] w-full mx-auto' src={WomanImg} alt="woman-img" />
+                        <img className='max-lg:mt-5 max-w-[558px] w-full mx-auto pointer-events-none' src={WomanImg} alt="woman-img" />
                     </div>
                 </div>
             </div>

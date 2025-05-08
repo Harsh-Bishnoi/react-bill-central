@@ -43,7 +43,7 @@ const ComprehensiveUtility = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="max-w-[500px] mx-auto items-center flex">
+                    <div className="max-w-[500px] mx-auto items-center flex pointer-events-none">
                         <img src={TwoMan} alt="man-img" />
                     </div>
                 </div>

@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="max-w-[1140px] px-3 mx-auto -mt-20">
                 <div className="md:flex justify-between">
                     <div>
-                        <img className='mb-7' src={FooterLogo} alt="logo" />
+                        <a href="#"><img className='mb-7 pointer-events-none' src={FooterLogo} alt="logo" /></a>
                         <CustomDescription descriptionClass="md:max-w-[297px] pb-[36px] text-white" descriptionText="Ut auctor nisi mauris eu tincidunt facilisi. Diam amet sollicitudin pretium maecenas ornare lacus arcu adipiscing." />
                         <h5 className='font-family-primary font-bold text-xl leading-[100%] capitalize pb-4 text-white'>Follow Us</h5>
                         <div className="flex gap-4 pb-10">

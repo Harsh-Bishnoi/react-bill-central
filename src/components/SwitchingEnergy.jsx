@@ -10,7 +10,7 @@ const SwitchingEnergy = () => {
             <div className="flex justify-center items-center py-10 sm:py-20 md-py-30 lg:pt-50 lg:pb-40.5">
                 <div className="max-w-[1140px] px-3">
                     <div className="flex max-lg:flex-col-reverse gap-9 lg:gap-[70px] items-center">
-                        <img className='w-full max-w-[507px] lg:max-w-[450px] xl:max-w-[507px]' src={SwitchingEnergyImg} alt="switching-energy" />
+                        <img className='w-full max-w-[507px] lg:max-w-[450px] xl:max-w-[507px] pointer-events-none' src={SwitchingEnergyImg} alt="switching-energy" />
                         <div>
                             <CustomHeading headingClass="lg:max-w-[409px] pb-4" headingSpan="Switching Energy" headingtext="Made Simple" />
                             <CustomDescription descriptionClass="lg:max-w-[558px] pb-9.5" descriptionText="Say goodbye to confusing energy plans! We simplify the process by providing clear and competitive electricity and gas recommendations. Whether you're moving or just seeking a better deal, our platform connects you with the best energy providers quickly and easily, helping you save on energy bills." />
