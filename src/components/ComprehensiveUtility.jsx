@@ -30,7 +30,9 @@ const ComprehensiveUtility = () => {
                                                 className="font-family-primary font-normal text-lg sm:text-2xl leading-[110%] text-[#00171F] w-full cursor-pointer flex justify-between items-center text-start"
                                             >
                                                 <span>{item.text}</span>
-                                                <span className="ml-3">{openIndex === index ? <OpenArrow /> : <CloseArrow />}</span>
+                                                <span className={`ml-3 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}>
+                                                    <CloseArrow />
+                                                </span>
                                             </button>
                                         </div>
                                         {openIndex === index && (

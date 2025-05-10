@@ -17,7 +17,7 @@ const FrequentlyQuestions = () => {
                 <CustomHeading headingClass="pb-4 text-center" headingtext="Frequently Asked " headingSpan2="Questions" />
                 <CustomDescription descriptionClass="max-w-[556px] pb-14 text-center mx-auto" descriptionText="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />
                 {ACCORDION_DATA.map((item, index) => (
-                    <div key={index} className={`mb-7 p-5 sm:p-6 w-full shadow-[0px_4px_23.2px_0px_#00000014] rounded-md ${openIndex === index ? 'bg-[#003459] text-white' : 'bg-[#FEFEFE] text-[#00171F]'
+                    <div key={index} className={`mb-7 p-5 sm:p-6 w-full shadow-[0px_4px_23.2px_0px_#00000014] rounded-md transition-all duration-300 ${openIndex === index ? 'bg-[#003459] text-white' : 'bg-[#FEFEFE] text-[#00171F]'
                         }`} >
                         <button
                             onClick={() => toggleAccordion(index)}
@@ -27,11 +27,10 @@ const FrequentlyQuestions = () => {
                             <span className="ml-3 w-7 h-7 sm:border-[2px] rounded-full flex justify-center items-center">{openIndex === index ? <OpenSvg /> : <CloseSvg />}</span>
                         </button>
 
-                        {openIndex === index && (
-                            <div className="font-family-primary font-normal text-base leading-[150%] mt-3.5 max-w-[722px] transition-all duration-200">
-                                {item.description}
-                            </div>
-                        )}
+                        <div className={`overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 ${openIndex === index ? 'max-h-40 opacity-100 mt-3.5' : ''} font-family-primary font-normal text-base leading-[150%] max-w-[722px]`}
+                        >
+                            {item.description}
+                        </div>
                     </div>
                 ))}
             </div>
