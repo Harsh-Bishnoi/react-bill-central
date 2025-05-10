@@ -9,7 +9,7 @@ import { Swiper_DATA } from '../utils/helper';
 
 const StepsToSwitch = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init(); 
     }, []);
     return (
         <>
