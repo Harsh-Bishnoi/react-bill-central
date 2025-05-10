@@ -36,7 +36,7 @@ const Hero = () => {
                         </div>
                         <div className="relative mx-auto">
                             <img className='absolute -right-16 -top-14 -z-1 max-xl:hidden' src={DotImg} alt="" />
-                            <img className='max-lg:mt-5 max-w-[558px] w-full mx-auto pointer-events-none' src={WomanImg} alt="woman-img" />
+                            <img className='max-lg:mt-5 max-w-[558px] w-full mx-auto pointer-events-none lg:min-h-[760px] lg:object-cover' src={WomanImg} alt="woman-img" />
                         </div>
                     </div>
                 </div>
