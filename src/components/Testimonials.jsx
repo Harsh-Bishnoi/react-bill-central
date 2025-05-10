@@ -11,7 +11,7 @@ import { SwiperNextArrow, SwiperPrevArrow } from '../utils/icon'
 const Testimonials = () => {
     return (
         <>
-            <div className="w-full px-3 sm:px-6 overflow-hidden pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
+            <div id='testimonials' className="w-full px-3 sm:px-6 overflow-hidden pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
                 <div className="max-w-full mx-auto">
                     <CustomHeading headingClass="pb-4 text-center" headingtext="Our" headingSpan2="Testimonials" />
                     <CustomDescription descriptionClass="max-w-[490px] mx-auto text-center pb-15.5" descriptionText="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />

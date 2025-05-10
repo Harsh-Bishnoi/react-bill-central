@@ -13,7 +13,7 @@ const StepsToSwitch = () => {
     }, []);
     return (
         <>
-            <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
+            <div id='why' className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
                 <div className="w-full max-w-[1440px]">
                     <CustomHeading headingClass="text-center px-3 pb-4" headingtext="Simple Steps to" headingSpan2="Switch" />
                     <div className="flex justify-center px-3 pb-[30px] sm:pb-[58px]">

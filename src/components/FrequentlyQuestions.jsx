@@ -12,7 +12,7 @@ const FrequentlyQuestions = () => {
     };
 
     return (
-        <div className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
+        <div id='FAQ' className="flex justify-center items-center pb-10 sm:pb-20 md:pb-30 lg:pb-40.5">
             <div className="w-[916px] max-lg:px-3">
                 <CustomHeading headingClass="pb-4 text-center" headingtext="Frequently Asked " headingSpan2="Questions" />
                 <CustomDescription descriptionClass="max-w-[556px] pb-14 text-center mx-auto" descriptionText="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />

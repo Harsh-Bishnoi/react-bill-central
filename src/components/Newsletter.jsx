@@ -9,7 +9,7 @@ import CustomInput from './common/CustomInput'
 const Newsletter = () => {
     return (
         <>
-            <div className="flex justify-center items-center -translate-y-[170px]">
+            <div id='service' className="flex justify-center items-center -translate-y-[170px]">
                 <div className="max-w-[1140px] w-full px-3 relative bg-[#EAF9FF] rounded-sm py-8 md:py-[54px] mx-3">
                     <img className='absolute hidden sm:block bottom-0 left-0 pointer-events-none' src={BottomImg} alt="" />
                     <img className='absolute hidden sm:block top-0 right-0 pointer-events-none' src={TopImg} alt="" />
