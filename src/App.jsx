@@ -1,4 +1,5 @@
 import './App.css'
+import BackToTop from './components/BackToTop'
 import ChooseUtilities from './components/ChooseUtilities'
 import ComprehensiveUtility from './components/ComprehensiveUtility'
 import Footer from './components/Footer'
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <FrequentlyQuestions />
       <Footer />
+      <BackToTop/>
     </>
   )
 }
