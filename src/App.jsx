@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Hero />
-      <LogoSwiper/>
+      <LogoSwiper />
       <SwitchingEnergy />
       <StepsToSwitch />
       <ComprehensiveUtility />
@@ -23,7 +23,7 @@ function App() {
       <Testimonials />
       <FrequentlyQuestions />
       <Footer />
-      <BackToTop/>
+      <BackToTop />
     </>
   )
 }
